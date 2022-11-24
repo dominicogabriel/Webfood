@@ -55,13 +55,14 @@ header li {
 body {
     background-color: rgb(58, 58, 58);
     font-family: 'Josefin Slab', serif;
+    /* margin: 0; */
 }
 
  a {
     text-decoration: none;
  }
 
-#page-logo {
+#logo {
     font-size: 40px;
     font-family: 'Signika Negative', sans-serif;
     font-weight: bold;
@@ -75,7 +76,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 24px;
+    padding: 0 20px;
 }
 
 #main-header a {
@@ -84,13 +85,13 @@ body {
 
 #main-header ul {
     list-style: none;
-}
-
-#header-content {
+    margin: 0;
+    padding: 0;
     display: flex;
 }
 
-#header-content li {
+
+#main-header li {
     margin-left: 20px;
     font-size: 20px;
     font-weight: bold;
@@ -114,17 +115,48 @@ main h1 {
     color: rgb(237, 143, 19);
 }
 
-#latest-product ul {
+#latest-products ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    /* width: 100%; */
+    gap: 16px;
 }
 
-.food-items img {
+#latest-products {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.food-item {
+    background-color: rgb(237, 143, 19);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.food-item img {
     height: 240px;
     width: 100%;
     object-fit: cover;
+}
+
+.food-item-content {
+    text-align: center;
+    padding: 20px 0;   
+}
+
+.food-item-content h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 24px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(66, 66, 66);
 }
 
 
