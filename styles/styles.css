@@ -1,0 +1,130 @@
+/* body {
+    font-family: 'Josefin Slab', serif;
+    margin: 0;
+    background-color: rgb(44, 41, 38);
+}
+
+a {
+    text-decoration: none;
+}
+
+#main-header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(29, 26, 24);
+    padding: 0px 20px;
+}
+
+#main-header a {
+    text-decoration: none;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+header ul {
+    list-style: none;
+    display: flex;    
+}
+
+header li {
+    margin-left: 20px;
+}
+
+#header-content a {
+    font-size: 15px;
+}
+
+#main-header nav a:hover {
+    background-color: #fff;
+    color: rgb(29, 26, 24);
+    padding: 10px;
+    border-radius: 6px;
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(58, 58, 58);
+    font-family: 'Josefin Slab', serif;
+}
+
+ a {
+    text-decoration: none;
+ }
+
+#page-logo {
+    font-size: 40px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#main-header {
+    /* width: 90%; */
+    height: 80px;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+}
+
+#main-header a {
+    color: rgb(237, 143, 19);
+}
+
+#main-header ul {
+    list-style: none;
+}
+
+#header-content {
+    display: flex;
+}
+
+#header-content li {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#main-header nav a:hover {
+    background-color: rgb(237, 143, 19);
+    color: rgb(36, 36, 36);
+    padding: 12px;
+    border-radius: 6px;
+}
+
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(237, 143, 19);
+}
+
+#latest-product ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    /* width: 100%; */
+}
+
+.food-items img {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
